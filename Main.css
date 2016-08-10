@@ -1,0 +1,116 @@
+/* 
+Name:    Main.css
+Author:  Nick Pal. 
+Description: Styling for the popup.html
+*/
+
+/* =====================
+   TagName Styling
+   ===================== */
+
+body {
+    margin: 0px auto;
+	width: 250px;
+    font-family: sans-serif;
+    background-color: darkorange;
+    text-align: center;
+    display: block;
+}
+
+button {
+    margin: 0px;
+    padding: 0px;
+    width: 60px;
+    height: 30px;
+    color: white;
+    background-color: crimson;
+}
+
+button:active {
+    background-color: green;
+}
+
+form {
+    width: 250px;
+    display: inline-block;
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+navigation {
+    background-color: or
+}
+
+span {
+    color: black;
+    font-size: 14px;
+    font-style: italic;
+    text-align: left;
+    padding-left: 4px;
+}
+
+select {
+    width: 80px;
+    float:right;
+}
+
+/* =====================
+   Class Styling
+   ===================== */
+
+.help {
+    color: white;
+    background-color: crimson;
+    font-size: 12px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.row {
+    width: 240px;
+    background-color: #fff;
+    margin: 5px;
+    height: 20px;
+}
+
+.row span {
+    float: left;
+}
+
+/* =====================
+   ID Styling
+   ===================== */
+
+#caution {
+    margin: 5px;
+    width: 240px;
+    background-color: red;
+}
+
+#caution h4 {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+#caution p {
+    margin-top: 0px;
+    padding: 10px;
+    color: white;
+    font-size: 12px;
+}
+
+#maintitle {
+    width: 250px;
+    color: white;
+    background-color: darkorange;
+}

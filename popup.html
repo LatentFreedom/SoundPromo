@@ -1,0 +1,72 @@
+<!-- 
+Name:    popup.html
+Author:  Nick Pal.
+Description: Popup webpage for the google chrome extension. The webpage has submit buttons and inputs for repost amounts.
+-->
+
+<html>
+    <head>
+        <title>SoundPromo</title>
+        <link rel="stylesheet" type="text/css" href="Main.css">
+    </head>
+    
+    <body>
+        <h1 id="mainTitle">SoundPromo</h1>
+        <navigation>
+            <button type="button" id="submitButton" name="Start">START</button>
+            <button type="button" id="helpButton" name="Help">HELP</button>
+            <button type="button" id="saveButton" name="Save">SAVE</button>
+        </navigation>
+        <div id="contentWrapper">
+            <form id="multipleInputForm">
+                <div class="help" style="display:none">The repost amount is how many groups you would like the track to be reposted in.</div>
+                <div class="row">
+                    <span>Repost Amount</span>
+                    <select id="repostAmount">
+                        <option value=""> Amount </option>
+                        <option value="1"> 1 </option>
+                        <option value="2"> 2 </option>
+                        <option value="3"> 3 </option>
+                        <option value="4"> 4 </option>
+                        <option value="5"> 5 </option>
+                        <option value="6"> 6 </option>
+                        <option value="7"> 7 </option>
+                        <option value="8"> 8 </option>
+                        <option value="9"> 9 </option>
+                        <option value="10"> 10 </option>
+                        <option value="11"> 11 </option>
+                        <option value="12"> 12 </option>
+                        <option value="13"> 13 </option>
+                        <option value="14"> 14 </option>
+                        <option value="15"> 15 </option>
+                        <option value="16"> 16 </option>
+                        <option value="17"> 17 </option>
+                        <option value="18"> 18 </option>
+                        <option value="19"> 19 </option>
+                        <option value="20"> 20 </option>
+                        <option value="21"> 21 </option>
+                        <option value="22"> 22 </option>
+                        <option value="23"> 23 </option>
+                        <option value="24"> 24 </option>
+                        <option value="25"> 25 </option>
+                        <option value="26"> 26 </option>
+                        <option value="27"> 27 </option>
+                        <option value="28"> 28 </option>
+                        <option value="29"> 29 </option>
+                        <option value="30"> 30 </option>
+                    </select>
+                </div>
+            </form>
+            
+            <div id="cautionWrapper" style="Display:none">
+                <div id="caution">
+                    <h4>CAUTION</h4>
+                    <p> Promoting your music will boost your plays, favorites, and reposts. With each repost you are making a post request and these can overload a server. The host site is not a fan of all the requests and can suspend your ability to add your tracks to groups if you take advantage of this service. Please be courteous and promote your best tracks only and in moderation.</p>
+                </div>
+                <button type="button" name="dismiss" id="dismissButton">DISMISS</button>
+            </div>
+        </div>
+        <script src="forms.js"></script>
+        <script src="helpers.js"></script>
+    </body>
+</html>

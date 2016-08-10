@@ -1,0 +1,28 @@
+// manifest.json
+// Author:  Nick Pal.
+// Description: manifest needed to run google chrome extension
+
+{
+    "manifest_version": 2,
+
+    "name": "SoundcloudRepost",
+    "description": "This extension will repost a given soundcloud track or list of tracks",
+    "version": "1.0",
+
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+
+    "permissions": [
+        "activeTab",
+        "storage"
+    ],
+    
+    "content_scripts": [
+        {
+            "matches":["https://soundcloud.com/YOUR-PROFILE-NAME"],
+            "js": ["contentscript.js"]
+        }
+    ]
+}
